@@ -1,0 +1,102 @@
+@media (max-width: 700px){
+    .container{
+        padding: 0;
+    }
+   .header .container .fa{
+       display: block;
+       color: #fff;
+       margin: 10px;
+       cursor: pointer;
+   }
+   .header .pad{
+       padding: 6% 4%;
+   }
+   .nav_links ul{
+       flex-direction: column;
+       padding: 30px;
+   }
+   .nav_links{
+       background-color: #f44336;
+       position: fixed;
+       top: 0;
+       right: -200px;
+       z-index: 2;
+       text-align: left;
+       width: 200px;
+       height: 100vh;
+       transition: .6s ease;
+   }
+   .nav_links ul li{
+       margin: 10px 0;
+   }
+   .banner_text h1{
+       font-size: 30px;
+   }
+   .course{
+       max-width: 80%;
+       margin: auto;
+   }
+   .course .grid{
+       grid-template-columns: 1fr;
+   }
+   .campus .grid{
+    grid-template-columns: 1fr;
+   }
+   .campus{
+       width: 80%;
+       margin: auto;
+   }
+   .faculties .grid{
+       grid-template-columns: 1fr;
+   }
+   .faculties {
+       width: 90%;
+       margin: auto;
+   }
+   .contact{
+       width: 90%;
+       margin: auto;
+   }
+   .contact_img{
+       height: 50vh;
+       width: 100%;
+   }
+   .contact_text h1{
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-bottom: 40px;
+    line-height: 1.6;
+}
+   .footer p{
+       width: 90%;
+   }
+   .about .grid{
+       grid-template-columns: 1fr;
+   }
+   .about{
+       width: 90%;
+       margin: auto;
+   }
+   .about .about_text{
+       text-align: center;
+   }
+   .blog .grid{
+       grid-template-columns: 1fr;
+   }
+   .blog{
+       width: 90%;
+       margin: auto;
+   }
+   .location > .container > .grid{
+       grid-template-columns: 1fr;
+   }
+   .location{
+       width: 90%;
+       margin: auto;
+   }
+}
+@media (max-width: 500px){
+    .campus{
+        width: 70%;
+    }
+}

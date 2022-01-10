@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edu_ford/practice</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- HEADER START-->
+    <section class="sub_header header">
+        <div class="container">
+            <div class="flex pad">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <nav class="nav_links" id="navLink">
+                    <i class="fa fa-times fa-2x" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="course.html">Course</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <i class="fa fa-bars fa-2x" onclick="showMenu()"></i>
+            </div>
+            <div class="banner_text text_center">
+                <h1>Contact Us</h1>
+            </div>
+        </div>
+    </section>
+    <!-- HEADER END-->
+    <!-- CONTACT START-->
+    <section class="location p_tb_5">
+        <div class="container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2582.807801933706!2d90.51257884683507!3d23.72448154955813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b7d0eae0fc73%3A0x46e86c28faeeb440!2sTarabo%20Bishwaroad%20Circle!5e0!3m2!1sen!2sbd!4v1636893014222!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            <div class="grid">
+                
+                <div class="left_contact">
+                    <div class="grid contact_info">
+                        <i class="fa fa-home fa-2x"></i>
+                        <span>
+                            <h5>XYZ Road</h5>
+                            <p>Rupganj,Narayanganj</p>
+                        </span>
+                    </div>
+                    <div class="grid contact_info">
+                        <i class="fa fa-phone fa-2x"></i>
+                        <span>
+                            <h5>O18363614043</h5>
+                            <p>24/7, 10AM to 10PM</p>
+                        </span>
+                    </div>
+                    <div class="grid contact_info">
+                        <i class="fa fa-envelope-o fa-2x"></i>
+                        <span>
+                            <h5>takbirhossain@gmail.com</h5>
+                            <p>Fill Free to Email Yor Query</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="right_contact">
+                    <form action="#">
+                        <input type="text" placeholder="Enter Your Name" required>
+                        <input type="email" placeholder="Enter Your Email" required>
+                        <input type="text" placeholder="Enter Your Subject" required>
+                        <textarea name="" id="" cols="0" rows="8" required placeholder="Message"></textarea>
+                        <button  type="submit" class="btn about_btn">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- CONTACT END-->
+    
+    <!-- FOOTER START-->
+<footer class="footer p_tb_4">
+    <div class="container text_center">
+        <h3>About Us</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere provident
+         illo consequuntur. Fuga quo laborum voluptatem voluptas reprehenderit.</p>
+         <ul>
+             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+             <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+         </ul>
+         <p>Made with <i class="fa fa-heart-o"></i> by takbir</p>
+    </div>
+</footer>
+
+    <!-- FOOTER END-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var navLink = document.getElementById ("navLink");
+
+        function showMenu(){
+            navLink.style.right = "0"
+        }
+        function hideMenu(){
+            navLink.style.right = "-200px"
+        }
+    </script>
+    
+</body>
+</html>
+
